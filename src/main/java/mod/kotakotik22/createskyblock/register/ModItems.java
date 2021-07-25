@@ -1,8 +1,8 @@
-package mod.yourname.yourmodid.register;
+package mod.kotakotik22.createskyblock.register;
 
 import com.simibubi.create.AllItems;
 import com.simibubi.create.foundation.data.CreateRegistrate;
-import mod.yourname.yourmodid.BuildConfig;
+import mod.kotakotik22.createskyblock.BuildConfig;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 
@@ -15,6 +15,6 @@ public class ModItems {
     };
 
     public static void register(CreateRegistrate registrate) {
-        registrate.itemGroup(()->itemGroup, "Create Addon"); // TODO: change this
+        registrate.itemGroup(()->itemGroup, "Create Skyblock");
     }
 }

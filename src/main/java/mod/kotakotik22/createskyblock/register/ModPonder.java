@@ -1,8 +1,8 @@
-package mod.yourname.yourmodid.register;
+package mod.kotakotik22.createskyblock.register;
 
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.simibubi.create.foundation.ponder.PonderRegistry;
-import mod.yourname.yourmodid.BuildConfig;
+import mod.kotakotik22.createskyblock.BuildConfig;
 import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
 
 public class ModPonder {

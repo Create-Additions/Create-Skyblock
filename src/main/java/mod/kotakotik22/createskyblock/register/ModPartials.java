@@ -1,8 +1,8 @@
-package mod.yourname.yourmodid.register;
+package mod.kotakotik22.createskyblock.register;
 
 import com.jozufozu.flywheel.core.PartialModel;
 import com.simibubi.create.Create;
-import mod.yourname.yourmodid.BuildConfig;
+import mod.kotakotik22.createskyblock.BuildConfig;
 import net.minecraft.util.ResourceLocation;
 
 public class ModPartials {

@@ -106,6 +106,7 @@ dependencies {
 
     implementation fg.deobf("curse.maven:create-328085:${create_file_id}")
     implementation fg.deobf("com.jozufozu.flywheel:Flywheel:${flywheel_version}")
+    implementation fg.deobf("curse.maven:create-gears-497867:${gears_file_id}")
 
     annotationProcessor 'org.spongepowered:mixin:0.8:processor'
 }
