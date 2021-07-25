@@ -1,0 +1,6 @@
+2ae2d57337392c575a173030424d8f5410104cce assets/createskyblock/blockstates/gear_crank.json
+a8480691ccc53b0db243352d9d7a493a411747fa assets/createskyblock/lang/en_ud.json
+b413ce48fc809385eed9b34bd3765fd54db9d4a6 assets/createskyblock/lang/en_us.json
+8cd30d56d522d965938fe2992b7c1033aa8e1c54 assets/createskyblock/models/item/gear_crank.json
+bcc2634bde581c33f76c4d8e91d8b584211d8434 data/create/tags/blocks/brittle.json
+8686f05cceec0aa27c31ecc5dd13680aac0bb258 data/createskyblock/loot_tables/blocks/gear_crank.json
