@@ -1,11 +1,14 @@
 package mod.kotakotik22.createskyblock.register;
 
+import com.simibubi.create.AllBlocks;
 import com.simibubi.create.AllTags;
 import com.simibubi.create.content.contraptions.components.crank.HandCrankBlock;
+import com.simibubi.create.content.contraptions.components.mixer.MechanicalMixerTileEntity;
 import com.simibubi.create.foundation.block.ItemUseOverrides;
 import com.simibubi.create.foundation.config.StressConfigDefaults;
 import com.simibubi.create.foundation.data.BlockStateGen;
 import com.simibubi.create.foundation.data.CreateRegistrate;
+import com.simibubi.create.foundation.data.ModelGen;
 import com.simibubi.create.foundation.data.SharedProperties;
 import com.simibubi.create.repack.registrate.util.entry.BlockEntry;
 import com.simibubi.create.repack.registrate.util.entry.TileEntityEntry;
@@ -22,7 +25,7 @@ public class ModBlocks {
                 .blockstate(BlockStateGen.directionalBlockProvider(true))
                 .transform(StressConfigDefaults.setCapacity(8.0))
                 .tag(AllTags.AllBlockTags.BRITTLE.tag)
-                .item().model(($, $$) -> {}).build()
+                .item().transform(ModelGen.customItemModel())
                 .onRegister(ItemUseOverrides::addBlock)
                 .register();
     }
