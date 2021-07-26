@@ -6,6 +6,8 @@ import mod.kotakotik22.createskyblock.BuildConfig;
 import net.minecraft.util.ResourceLocation;
 
 public class ModPartials {
+   public static final PartialModel GEAR_CRANK_HANDLE = get("gear_crank/handle");
+
     public static PartialModel get(String name) {
         return new PartialModel(new ResourceLocation(BuildConfig.MODID, "block/" + name));
     }

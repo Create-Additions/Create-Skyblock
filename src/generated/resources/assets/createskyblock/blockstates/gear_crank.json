@@ -1,28 +1,28 @@
 {
   "variants": {
     "facing=down": {
-      "model": "createskyblock:block/gear_crank",
+      "model": "createskyblock:block/gear_crank/block",
       "x": 180
     },
     "facing=up": {
-      "model": "createskyblock:block/gear_crank"
+      "model": "createskyblock:block/gear_crank/block"
     },
     "facing=north": {
-      "model": "createskyblock:block/gear_crank",
+      "model": "createskyblock:block/gear_crank/block",
       "x": 90
     },
     "facing=south": {
-      "model": "createskyblock:block/gear_crank",
+      "model": "createskyblock:block/gear_crank/block",
       "x": 90,
       "y": 180
     },
     "facing=west": {
-      "model": "createskyblock:block/gear_crank",
+      "model": "createskyblock:block/gear_crank/block",
       "x": 90,
       "y": 270
     },
     "facing=east": {
-      "model": "createskyblock:block/gear_crank",
+      "model": "createskyblock:block/gear_crank/block",
       "x": 90,
       "y": 90
     }

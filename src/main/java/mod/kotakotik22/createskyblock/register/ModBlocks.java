@@ -19,10 +19,10 @@ public class ModBlocks {
     public static void register(CreateRegistrate registrate) {
         GEAR_CRANK = registrate.block("gear_crank", GearCrankBlock::new)
                 .initialProperties(SharedProperties::wooden)
-                .blockstate(BlockStateGen.directionalBlockProvider(false))
+                .blockstate(BlockStateGen.directionalBlockProvider(true))
                 .transform(StressConfigDefaults.setCapacity(8.0))
                 .tag(AllTags.AllBlockTags.BRITTLE.tag)
-                .simpleItem()
+                .item().model(($, $$) -> {}).build()
                 .onRegister(ItemUseOverrides::addBlock)
                 .register();
     }
